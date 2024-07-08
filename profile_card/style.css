@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #052009;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  p {
+    font-size: 16px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .card {
+    width: 350px;
+    height: auto;
+    padding: 25px;
+    background: #77787a;
+    color: rgb(252, 252, 252);
+    border-radius: 20px;
+    box-shadow: rgba(51, 71, 86, 0.25) 0px 10px 10px,
+      rgba(51, 71, 86, 0.12) 0px -12px 30px,
+      rgba(51, 71, 86, 0.12) 0px 12px 13px,
+      rgba(51, 71, 86, 0.17) 0px 12px 13px,
+      rgba(51, 71, 86, 0.09) 0px -3px 12px;
+  }
+
+  .card img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .description {
+    text-align: justify;
+    padding: 15px 0;
+  }
+  .card-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  .card-button button {
+    cursor: pointer;
+    padding: 8px 12px;
+    color: #fff;
+    background: #c33317;
+    border-radius: 8px;
+    border: none;
+    transition: 0.4s;
+  }
+  .card-button button:hover {
+    background: rgb(2, 31, 14);
+  }
+  .Social-link{
+    list-style: none;
+    color:white;
+    display: flex;
+    gap:15px;
+    margin:25px 55px 15px;
+
+  }
+  .Social-link li a{
+    color:rgb(2, 31, 14);
+    background-color: #fff;
+    display: inline-block;
+    text-align:center;
+    font-size: 16px;
+    width: 36px;
+    height: 36px;
+    padding-top: 8px;
+    border-radius: 50%;
+  }
+  .Social-link li a:hover {
+    color:white;
+    background-color: #c33317;
+   
+}
+.project-link{
+    list-style: none;
+    display: flex;
+    gap:5px;
+    margin:15px 89px 15px; 
+}
+.project-link li a{
+  color:rgb(2, 31, 14);
+  background-color: #fff;
+  display: inline-block;
+  text-align:center;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  padding-top: 8px;
+  border-radius: 50%;
+}
+  
